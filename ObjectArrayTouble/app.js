@@ -1,3 +1,4 @@
+"use strict";
 /*
 // objects in typescript
 const person : {
@@ -51,7 +52,7 @@ var Role;
     Role[Role["TEAM_lEAD"] = 3] = "TEAM_lEAD";
 })(Role || (Role = {}));
 ;
-var developer = {
+const developer = {
     name: "Tinkal Kumar",
     age: 23,
     skills: ["javascript", "typescript", "react", "nodejs", "express", "mongodb"],
